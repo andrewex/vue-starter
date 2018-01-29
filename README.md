@@ -1,6 +1,8 @@
 # vue-starter
 
-# More docs and Laravel API backend coming soon. 
+
+More docs and Laravel API backend coming soon.
+
 
 ```
 git clone https://github.com/andrewex/vue-starter.git
