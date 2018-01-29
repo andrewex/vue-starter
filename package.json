@@ -1,6 +1,6 @@
 {
-  "name": "leadx-app",
-  "version": "1.0.0",
+  "name": "andrewex/vue-starter",
+  "version": "0.1.0",
   "description": "Customer app for LeadX",
   "main": "index.js",
   "scripts": {
