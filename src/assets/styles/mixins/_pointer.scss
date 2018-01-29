@@ -1,0 +1,26 @@
+@mixin pointer($size, $color, $border) {
+
+  &:before,
+  &:after {
+    content: "";
+    height: 0;
+    width: 0;
+    border-left: $size solid transparent;
+    border-right: $size solid transparent;
+    position: absolute;
+    right: 40px;
+    margin: 0 0 0 -3px;
+  }
+
+  &:before {
+    border-bottom: $size solid $border;
+    top: -9px;
+    z-index: 99;
+  }
+
+  &:after {
+    border-bottom: $size solid $color;
+    top: -8px;
+    z-index: 100;
+  }
+}

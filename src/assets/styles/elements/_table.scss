@@ -1,0 +1,29 @@
+.table {
+  margin-bottom: 0;
+}
+
+.table th, .table td {
+  padding: .75rem 1rem;
+}
+
+.table thead th {
+  background-color: #F0F1F2;
+  border-bottom: 1px solid #bec3c8;
+  border-top: 1px solid #bec3c8;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+.table td {
+  vertical-align: middle;
+  color: #878787;
+  border-top: 1px solid #ced2d6;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+  cursor: pointer;
+}
